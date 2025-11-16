@@ -1,0 +1,33 @@
+{
+  "name": "brand-reputation-tracker",
+  "version": "1.0.0",
+  "description": "Advanced Brand Mention & Reputation Tracker (Node.js + Socket.IO + Tailwind UI). Backend + Frontend integrated. Real-time monitoring, sentiment analysis, topic clustering, spike alerts, CSV export.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "csv-stringify": "^6.4.5",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "reputation",
+    "brand-monitoring",
+    "sentiment-analysis",
+    "socket.io",
+    "express",
+    "nodejs",
+    "real-time-dashboard",
+    "marketing"
+  ]
+}
